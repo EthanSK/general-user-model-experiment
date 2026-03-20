@@ -50,8 +50,8 @@
 - [x] Add docs: README, architecture notes, spec paper, acknowledgment/citations.
 - [x] Add tests and runnable scripts.
 - [x] Run validation (tests + basic smoke run).
-- [ ] Commit incrementally.
-- [ ] Attempt GitHub repo create/push as `general-user-model-experiment`.
+- [x] Commit incrementally.
+- [x] Attempt GitHub repo create/push as `general-user-model-experiment`.
 
 ## Progress log
 - 2026-03-20 16:05 — task started in target directory.
@@ -66,3 +66,5 @@
 - 2026-03-20 16:35 — authored open-source docs (`README.md`, `docs/ARCHITECTURE.md`, `docs/API.md`, `paper/SOURCE_DERIVATION.md`) and MIT license.
 - 2026-03-20 16:38 — added test suite (`tests/test_*.py`) and helper scripts (`train_demo.py`, `generate_example_csv.py`) plus sample CSV.
 - 2026-03-20 16:43 — created local `.venv` (Python 3.13), installed package + deps, and validated with `pytest` (4 passed) and `scripts/train_demo.py` smoke run.
+- 2026-03-20 16:45 — committed incrementally in three commits (`feat(core)`, `feat(ui-docs)`, `test(scaffold)`).
+- 2026-03-20 16:46 — created and pushed GitHub repo: `https://github.com/EthanSK/general-user-model-experiment`.
